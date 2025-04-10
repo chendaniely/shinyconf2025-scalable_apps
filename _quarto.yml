@@ -1,0 +1,24 @@
+project:
+  type: default
+  output-dir: docs
+  preview:
+    port: 54321
+
+format:
+  revealjs:
+    smaller: true
+    footer: "Daniel Chen, Shiny Conf 2025, <https://github.com/chendaniely/shinyconf2025-scalable_apps>"
+    slide-number: true
+    show-slide-number: all
+    embed-resources: false
+    css: styles.css
+
+editor:
+  render-on-save: true
+
+brand: _brand.yml
+
+filters:
+  - quarto
+  - shinylive
+  - line-highlight
